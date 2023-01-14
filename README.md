@@ -93,6 +93,7 @@ n/a
 ### Executing program
 
 1. Open the project's root folder
+2. Open the _ProgrammingAssigment2_ folder
 2. Open the _ProgrammingAssignment2.sln_ file in Microsoft Visual Studio
 3. Run _Program.cs_
 
