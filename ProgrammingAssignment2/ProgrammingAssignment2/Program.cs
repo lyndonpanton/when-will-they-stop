@@ -34,6 +34,31 @@ namespace ProgrammingAssignment2
 				// course add more space between the
 				// comments as needed
 
+				int sum = 0;
+				int count = 0;
+				while (true)
+				{
+					// sum += Convert.ToInt32(input[i]);
+					int value = GetValue();
+					if (value == -1) break;
+
+					sum += value;
+					count++;
+				}
+
+				float mean = 0;
+
+				if (count != 0)
+				{
+					mean = (float)sum / (float)count;
+				}
+
+				Console.Write(count);
+				Console.Write(" ");
+				Console.WriteLine(mean);
+
+
+
 
 
 				// Don't add or modify any code below
